@@ -1,68 +1,91 @@
-# Jekyll Origin Premium Theme
+# HelloDX Blog
 
-Jekyll Origin is a premium blog theme.
+Welcome to the HelloDX Blog repository! This blog is built with Jekyll and hosted on Netlify. Follow the instructions below to set up and run the blog locally, create new blog posts, and understand the deployment process.
 
-* [Online Documention](https://www.zerostatic.io/docs/jekyll-origin)
-* [Live Demo](https://jekyll-origin.netlify.app/)
+## Setup and Run Locally
 
----
+1. **Clone the Repository**
 
-![Jekyll Origin Theme screenshot](https://www.zerostatic.io/theme/jekyll-origin/jekyll-origin-screenshot.png)
+   ```sh
+   git clone https://github.com/your-username/hellodx-blog.git
+   cd hellodx-blog
+  ```
 
-## Install
+2. **Install Jekyll and Bundler**
 
-### Install Jekll
+  ```sh
+  gem install bundler jekyll
+  ```
 
-Make sure you have Ruby & Jekyll installed - For a step-by-step guide, read Jekyll docs [installation](https://jekyllrb.com/docs/installation/)
+3. **Install Dependencies**
 
-### Install Theme
+   ```sh
+   bundle install
+   ```
 
-Extract the themes .zip file to your local computer. Navigate to the project root (it contains the README.md)
+4. **Run Jekyll Locally**
+   ```sh
+   bundle exec jekyll build
+   bundle exec jekyll serve
+   ```
+   Your local site will be running at http://localhost:4000.
 
-Run `bundle install` to install gems.
+## Creating a Blog Post
+Blog posts are written in Markdown and stored in the _posts collection.
 
-Then run `jekyll serve` or `bundle exec jekyll serve` to start the Jekyll server.
+1. **Navigate to the `_posts` Directory**
+   ```sh
+   cd _posts
+   ```
 
-To build the Jekyll site run `bundle exec jekyll build`
+2. **Create a New Markdown File**
+   ```sh
+   touch 2024-05-16-new-blog-post.md
+   ```
 
-## Deploy
+3. **Write Your Blog Post**
+   ```sh
+   ---
+   layout: post
+   title: "Hello World - Hello DX"
+   date: 2024-05-15
+   authors: ["Kunal Batra"]
+   categories: ["DX", "AI"]
+   description: "We're launching Hello DX to help Devtool companies grow with a refined developer experience."
+   thumbnail: "/assets/images/gen/blog/amitkunal.JPG"
+   image: "/assets/images/gen/blog/amitkunal.JPG"
+   comments: true
+  
+   meta_title: Improving page speed with Jekyll
+   meta_description: Learn how to improve your Jekyll page speed with these practical tips for your blog.
+   meta_image: "/assets/images/og/og-twitter-blog-image.webp"
+   ---
+   Your blog post content goes here...
+   ```
 
-### Netlify
+4. **Check Sample Blog Posts**
+   For examples of how to structure your blog posts, check out the sample blog posts in the `sample_pages` folder at the root of the repository.
 
-We recommend Netlify for hosting Jekyll static sites.  This theme comes with a working `netlify.toml` which will pre-configure your Netlify deployment for Jekyll. The Netlify docs have a great guide to [creating a site with Netlify](https://docs.netlify.com/site-deploys/create-deploys/).
+## Deployment
+1. **Create a New Branch**
+   ```sh
+   git checkout -b your-branch-name
+  ```
 
-> 💡 If you experience bundle install issues during the Netlify deployment, deleting the Gemfile.lock can sometimes help
+2. **Make Your Changes and Commit**
+   ```sh
+   git add .
+   git commit -m "Your commit message"
+   ```
 
-### GitHub Pages
+3. **Push Your Branch and Create a PR**
+   ```sh
+   git push origin your-branch-name
+   ```
 
-This theme works with GitHub Pages. If you are creating a GitHub Pages "Project site" then your site will be in a sub-folder ie `http://username.github.io/repository` You will need to update the `baseurl` in the `_config.yml` for the asset paths to work correctly.
+4. **Open a PR on GitHub**
+   Go to your repository on GitHub, open a PR from your branch to the main branch, and wait for the review and merge. Once merged, Netlify will automatically build and deploy your changes.
 
-```yaml
-# _config.yml
-# For GitHub pages the baseurl should be the name of your GitHub repo
-# Ensure you use the leading slash; use "/my-repo-name" NOT "my-repo-name"
-baseurl: "/my-repo-name"
-```
-
-Github Pages does not support automatic category generation. If you are using Github Pages you will need to manually define your categories in the `category` folder. For example create `category/my-category.md` and use the following frontmatter
-
-```yaml
----
-category: Extra
----
-```
-
-
-## Tips
-
-💡 Some people report problems using the baseurl (often with GitHub Pages). This guide covers the correct usage:  [Jekyll’s site.url and baseurl](https://mademistakes.com/mastering-jekyll/site-url-baseurl/)
-
-💡 If you experience bundle install issues during the Netlify deployment, deleting the Gemfile.lock can sometimes help
-
-## Credits
-
-This theme uses open-source libraries and assets.
-
-- **Bootstrap 5** https://unsplash.com/license
-- **Font Awesome 6 Free:** https://fontawesome.com/
-- **Unsplash Images** https://unsplash.com/
+## Contributing
+We welcome contributions! Please fork the repository, create a new branch, and submit a pull request with your changes.
+  
