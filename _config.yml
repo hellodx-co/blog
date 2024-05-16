@@ -16,14 +16,15 @@ plugins:
   - jekyll-paginate
 
 paginate: 6
-paginate_path: "/blog/page/:num"
+paginate_path: "/page/:num"
 
 # Collections
 collections_dir: collections
 collections:
   posts:
     output: true
-    permalink: /blog/:path/
+    permalink: /:year-:month-:day-:title/
+      #permalink: /blog/:path/
 
 # Pages
 defaults:
