@@ -3,9 +3,12 @@
 # --------------------
 baseurl: ""
 url: "https://blog.hellodx.co"
-permalink: pretty
+  #permalink: pretty
 markdown: kramdown
 highlighter: rouge
+
+
+permalink: /:year-:month-:day-:title/  # Custom permalink structure
 
 # Plugins
 plugins:
