@@ -9,12 +9,13 @@ Welcome to the HelloDX Blog repository! This blog is built with Jekyll and hoste
    ```sh
    git clone https://github.com/your-username/hellodx-blog.git
    cd hellodx-blog
-  ```
+
+   ```
 
 2. **Install Jekyll and Bundler**
 
   ```sh
-  gem install bundler jekyll
+       gem install bundler jekyll
   ```
 
 3. **Install Dependencies**
@@ -24,26 +25,32 @@ Welcome to the HelloDX Blog repository! This blog is built with Jekyll and hoste
    ```
 
 4. **Run Jekyll Locally**
+
    ```sh
    bundle exec jekyll build
    bundle exec jekyll serve
    ```
-   Your local site will be running at http://localhost:4000.
+
+   Your local site will be running at <http://localhost:4000>.
 
 ## Creating a Blog Post
+
 Blog posts are written in Markdown and stored in the _posts collection.
 
 1. **Navigate to the `_posts` Directory**
+
    ```sh
    cd _posts
    ```
 
 2. **Create a New Markdown File**
+
    ```sh
    touch 2024-05-16-new-blog-post.md
    ```
 
 3. **Write Your Blog Post**
+
    ```sh
    ---
    layout: post
@@ -67,18 +74,23 @@ Blog posts are written in Markdown and stored in the _posts collection.
    For examples of how to structure your blog posts, check out the sample blog posts in the `sample_pages` folder at the root of the repository.
 
 ## Deployment
+
 1. **Create a New Branch**
+
    ```sh
    git checkout -b your-branch-name
-  ```
+   ```
 
 2. **Make Your Changes and Commit**
+
    ```sh
    git add .
    git commit -m "Your commit message"
+
    ```
 
 3. **Push Your Branch and Create a PR**
+
    ```sh
    git push origin your-branch-name
    ```
@@ -87,5 +99,6 @@ Blog posts are written in Markdown and stored in the _posts collection.
    Go to your repository on GitHub, open a PR from your branch to the main branch, and wait for the review and merge. Once merged, Netlify will automatically build and deploy your changes.
 
 ## Contributing
+
 We welcome contributions! Please fork the repository, create a new branch, and submit a pull request with your changes.
   
