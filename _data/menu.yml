@@ -36,9 +36,9 @@ main:
       #   icon_darkmode: "/assets/images/icons/menu/white/noun-browser-custom-1-FFFFFF.svg"
       #   description: "Small image layout"
       #   url: /blog/2021-07-26-design-systems-that-scale/
-          #- name: About
-          #url: /about/
-          #weight: 3
+  - name: Work with us
+    url: https://calendly.com/kunal732/30min
+    weight: 2
           #  - name: Contact
           #  url: /contact/
           #  weight: 4
