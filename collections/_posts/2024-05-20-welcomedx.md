@@ -11,7 +11,7 @@ comments: true
 
 meta_title: Welcome to HelloDX
 meta_description: Announcing the launch of HelloDX, a new venture to help companies with growth by offering tools and services that enhance developer experience. 
-meta_image: "/assets/images/gen/content/team10yrsago.jpg"
+meta_image: "/assets/images/gen/content/amit-kunal-socialmedia.png"
 ---
 ## Hello World
 I'm really excited to share that [Amit Jotwani](https://www.linkedin.com/in/ajotwani/) and [I](https://www.linkedin.com/in/batrakunal/) are starting a new venture to help companies grow by offering tools and services that enhance DX. In this venture, known as HelloDX, our North Star is to reduce the friction that developers face with their tooling, allowing them to focus on tackling the challenges at hand. Before diving into how we will accomplish this vision, I want to quickly introduce who we are.

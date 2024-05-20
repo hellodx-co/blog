@@ -11,7 +11,7 @@ comments: true
 
 meta_title: Hello World...HelloDX
 meta_description: I’m really excited to share some news today. Kunal and I are starting HelloDX, a new venture to help developer-focused companies create products that developers love to use. 
-meta_image: "/assets/images/gen/content/amitkunal.JPG"
+meta_image: "/assets/images/gen/content/amit-kunal-socialmedia.png"
 ---
 
 ### Hello Everyone
