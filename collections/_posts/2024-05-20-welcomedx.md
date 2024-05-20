@@ -43,7 +43,7 @@ There is a lot of work to be done, but we strongly believe that improving the de
 
 Our first product is a comprehensive friction report known as DebugDX. We will evaluate your services and tools across multiple developer experience dimensions based on your product's use cases and provide actionable feedback on areas for improvement to help retain and grow your user base. Most companies overlook that retention is a key pillar of product-led growth (PLG). In this report, we'll also suggest creative experiments for increasing developer acquisition and give guidance throughout. 
 
-We’re breaking this down into two packages to make pricing transparent and simple. [Amit’s post goes more into detail on this so please check that out. ](https://blog.hellodx.co/2024-05-15-helloworld/)But overall you can see some of the different dimensions that we cover in the bullet points below.
+We’re breaking this down into two packages to make pricing transparent and simple. [Amit’s post goes more into detail on this so please check that out. ](https://blog.hellodx.co/2024-05-20-helloworldhellodx/) But overall you can see some of the different dimensions that we cover in the bullet points below.
 
 * **Usability and Integration**
     * <span style="text-decoration:underline;">Ease of Use</span>: Learning curve, setup, and configuration
