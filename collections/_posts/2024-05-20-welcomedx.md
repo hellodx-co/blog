@@ -67,5 +67,5 @@ If this resonates with you and you want to take advantage of the experience Amit
 
 [Work with us!](https://calendly.com/kunal732/30min)
 
-### Kunal & Amit
+### Kunal
 
