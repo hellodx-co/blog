@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+    <title>Hello World...HelloDX</title>
+
+
+  <meta name="description" content="I’m really excited to share some news today. Kunal and I are starting HelloDX, a new venture to help developer-focused companies create products that developers love to use."/>
+
+
+
+    <meta property="og:type" content="website"/>
+<meta property="og:url" content="http://localhost:4000/2024-05-20-helloworldhellodx/"/>
+
+
+  <meta property="og:title" content="Hello World...HelloDX"/>
+
+
+
+  <meta property="og:description" content="I’m really excited to share some news today. Kunal and I are starting HelloDX, a new venture to help developer-focused companies create products that developers love to use."/>
+
+
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/gen/content/amitkunal.JPG"/>
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:site" content="@" />
+<meta name="twitter:creator" content="@" />
+    <link rel="alternate" type="application/atom+xml" title="HelloDX Blog" href="/feed.xml">
+    <link rel="icon" href="/assets/images/favicon/favicon.png">
+
+
+    <link href="/assets/css/main.css" rel="stylesheet">
+
+    
+      <script>
+          localStorage.getItem('darkMode') === 'true' && document.documentElement.setAttribute('data-bs-theme', 'dark');
+      </script>
+    
+
+    
+      <!-- https://github.com/orestbida/cookieconsent -->
+
+<link rel="stylesheet" href="/assets/css/cookieconsent.css">
+<script defer src="/assets/js/cookieconsent.js"></script>
+
+<!-- Inline script -->
+<script>
+    window.addEventListener('load', function () {
+
+        // obtain plugin
+        var cc = initCookieConsent();
+
+        // run plugin with your configuration
+        cc.run({
+            current_lang: 'en',
+            autoclear_cookies: true,                   // default: false
+            page_scripts: true,                        // default: false
+
+            // mode: 'opt-in'                          // default: 'opt-in'; value: 'opt-in' or 'opt-out'
+            // delay: 0,                               // default: 0
+            // auto_language: '',                      // default: null; could also be 'browser' or 'document'
+            // autorun: true,                          // default: true
+            // force_consent: false,                   // default: false
+            // hide_from_bots: true,                   // default: true
+            // remove_cookie_tables: false             // default: false
+            // cookie_name: 'cc_cookie',               // default: 'cc_cookie'
+            // cookie_expiration: 182,                 // default: 182 (days)
+            // cookie_necessary_only_expiration: 182   // default: disabled
+            // cookie_domain: location.hostname,       // default: current domain
+            // cookie_path: '/',                       // default: root
+            // cookie_same_site: 'Lax',                // default: 'Lax'
+            // use_rfc_cookie: false,                  // default: false
+            // revision: 0,                            // default: 0
+
+            onFirstAction: function (user_preferences, cookie) {
+                // callback triggered only once on the first accept/reject action
+            },
+
+            onAccept: function (cookie) {
+                // callback triggered on the first accept/reject action, and after each page load
+            },
+
+            onChange: function (cookie, changed_preferences) { 
+                // If analytics category is disabled => disable google analytics 
+                if (!cc.allowedCategory('analytics')) { 
+                    typeof gtag === 'function' && gtag('consent', 'update', { 
+                        'analytics_storage': 'denied' 
+                    }); 
+                } 
+            }, 
+
+            languages: {
+                'en': {
+                    consent_modal: {
+                        title: 'We use cookies!',
+                        description: 'Hi, this website uses essential cookies to ensure its proper operation and tracking cookies to understand how you interact with it. The latter will be set only after consent. <button type="button" data-cc="c-settings" class="cc-link">Let me choose</button>',
+                        primary_btn: {
+                            text: 'Accept all',
+                            role: 'accept_all'              // 'accept_selected' or 'accept_all'
+                        },
+                        secondary_btn: {
+                            text: 'Reject all',
+                            role: 'accept_necessary'        // 'settings' or 'accept_necessary'
+                        }
+                    },
+                    settings_modal: {
+                        title: 'Cookie preferences',
+                        save_settings_btn: 'Save settings',
+                        accept_all_btn: 'Accept all',
+                        reject_all_btn: 'Reject all',
+                        close_btn_label: 'Close',
+                        // cookie_table_caption: 'Cookie list',
+                        cookie_table_headers: [
+                            { col1: 'Name' },
+                            { col2: 'Domain' },
+                            { col3: 'Expiration' },
+                            { col4: 'Description' }
+                        ],
+                        blocks: [
+                            {
+                                title: 'Cookie usage 📢',
+                                description: 'I use cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want. For more details relative to cookies and other sensitive data, please read the full <a href="#" class="cc-link">privacy policy</a>.'
+                            }, {
+                                title: 'Strictly necessary cookies',
+                                description: 'These cookies are essential for the proper functioning of my website. Without these cookies, the website would not work properly',
+                                toggle: {
+                                    value: 'necessary',
+                                    enabled: true,
+                                    readonly: true          // cookie categories with readonly=true are all treated as "necessary cookies"
+                                }
+                            }, {
+                                title: 'Performance and Analytics cookies',
+                                description: 'These cookies allow the website to remember the choices you have made in the past',
+                                toggle: {
+                                    value: 'analytics',     // your cookie category
+                                    enabled: false,
+                                    readonly: false
+                                },
+                                cookie_table: [             // list of all expected cookies
+                                    {
+                                        col1: '^_ga',       // match all cookies starting with "_ga"
+                                        col2: 'google.com',
+                                        col3: '2 years',
+                                        col4: 'description ...',
+                                        is_regex: true
+                                    },
+                                    {
+                                        col1: '_gid',
+                                        col2: 'google.com',
+                                        col3: '1 day',
+                                        col4: 'description ...',
+                                    }
+                                ]
+                            },
+                            {
+                                title: 'More information',
+                                description: 'For any queries in relation to our policy on cookies and your choices, please <a class="cc-link" href="#yourcontactpage">contact us</a>.',
+                            }
+                        ]
+                    }
+                }
+            }
+        });
+    });
+</script>
+    
+
+    
+
+    <link href="/assets/css/fonts.css" rel="stylesheet">
+
+
+
+
+    
+
+  </head>
+<body class="page page-post page-post-1 has-static-header">
+
+
+<div class="menu-main-mobile " id="menu-main-mobile">
+  
+  <div class="menu-main-mobile-top">
+    <div id="close-overlay" class="menu-main-close">
+      <div class="hamburger"></div>
+    </div>
+  </div>
+
+  <div class="menu-main-mobile-center">
+    
+      <ul class="menu">
+        
+          <li class="menu-item-home">
+            <a href="https://hellodx.co/">Home</a>
+          </li>
+        
+          <li class="menu-item-work with us">
+            <a href="https://calendly.com/kunal732/30min">Work with us</a>
+          </li>
+        
+      </ul>
+    
+  </div>
+
+  <div class="menu-main-mobile-bottom">
+    
+    
+  </div>
+
+</div>
+
+
+
+
+<div id="header" class='header '>
+  <div class="container">
+    <div class="logos">
+  <div class="logo logo-desktop">
+    
+      <div class="logo-image">
+        <a href="/">
+          <img height="30px" width="" alt="HelloDX Blog Logo" src="/assets/images/logo/hdx-logo.png"/>
+        </a>
+      </div>
+    
+  
+    
+      <div class="logo-text"><a href="/"></a></div>
+    
+    
+  </div>
+
+  <div class="logo logo-desktop-invert">
+    
+    
+      <div class="logo-image">
+        <a href="/">
+          <img height="30px" width="" alt="HelloDX Blog Logo" src="/assets/images/logo/hdx-logo.png"/>
+        </a>
+      </div>
+    
+  
+    
+      <div class="logo-text"><a href="/"></a></div>
+    
+    
+  </div>
+
+  <div class="logo logo-mobile">
+    
+    
+      <div class="logo-image">
+        <a href="/">
+          <img height="28px" width="" alt="HelloDX Blog Logo" src="/assets/images/logo/hdx-logo.png"/>
+        </a>
+      </div>
+    
+  
+    
+    
+  </div>
+
+
+  <div class="logo logo-mobile-invert">
+    
+    
+      <div class="logo-image">
+        <a href="/">
+          <img height="28px" width="" alt="HelloDX Blog Logo" src="/assets/images/logo/hdx-logo.png"/>
+        </a>
+      </div>
+    
+  
+    
+
+  </div>
+
+</div>
+
+
+    <div class="menu-main">
+  <ul>
+    
+      
+        
+        <li class=" ">
+          <a href="https://hellodx.co/" >Home</a>
+        </li>
+      
+    
+      
+        
+        <li class=" ">
+          <a href="https://calendly.com/kunal732/30min" >Work with us</a>
+        </li>
+      
+    
+  </ul>
+</div>
+
+    
+    <div class="hamburger-trigger" id="toggle-menu-main-mobile">
+  <button class="hamburger">Menu</button>
+</div>
+  </div>
+</div>
+
+<div id="wrapper" class="wrapper">     
+  <div class="section">
+  <div class="container post-header">
+
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-8">
+          
+            <div class="post-date">20 May 2024</div>
+          
+          
+          <div class="post-categories">
+          
+
+
+  
+    
+
+
+
+
+<div class="category-link">
+<a href="/category/dx">
+  DX
+</a>
+
+</div>
+  
+    
+
+
+
+
+<div class="category-link">
+<a href="/category/launch">
+  Launch
+</a>
+
+</div>
+  
+
+          
+          </div>
+          <div class="post-title">
+            <h1>Hello World…HelloDX</h1>
+          </div>
+          
+            <div class="post-description">
+              <p>I’m really excited to share some news today. Kunal and I are starting HelloDX, a new venture to help developer-focused companies create products that developers love to use.</p>
+            </div>
+          
+
+          
+            <div class="post-authors">
+              
+              
+              
+              
+
+
+
+
+<div class="author">
+  
+  <div class="author-image">
+    <img src="/assets/images/team/amit-headshot.jpeg" alt="Amit Jotwani" />
+  </div>
+  
+
+  
+  <div class="author-content">
+    <div class="author-name">Amit Jotwani</div>
+    
+    <div class="author-job">General Partner</div>
+    
+  </div>
+  
+</div>
+              
+            </div>
+          
+
+      </div>
+    </div>
+          
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-8">
+        
+          <div class="post-image">
+            <img src="/assets/images/gen/content/amitkunal.JPG" alt="Hello World…HelloDX" />
+          </div>
+        
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="section pt-0">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-8">
+        <div class="content"><h3 id="hello-everyone">Hello Everyone</h3>
+<p>I’m really excited to share some news today. <a href="https://www.linkedin.com/in/batrakunal/">Kunal</a> and I are starting <a href="hellodx.co">HelloDX</a>, a new venture to help developer-focused companies create products that developers love to use.</p>
+
+<p>We’ve known each other for over a decade, starting out as developer advocates at Mashery and SendGrid, and later working at Amazon (Alexa and AWS). <em>Fun fact: we even became neighbors here in New York City—completely by chance.</em></p>
+
+<p>Between us, we’ve spent years working with developer tools at places like Amazon, SendGrid, Mashery, and Retool. We’ve seen firsthand what makes or breaks these tools, not just as advocates, educators, and product managers, but as developers too. Our hands-on experience and close connection with the developer community have given us a deep understanding of what makes tools truly great.</p>
+
+<p>After years of working together on various projects and countless coffee chats, we decided it was time to put our knowledge to use in a new way. That’s why we’re starting HelloDX. We want to help companies create tools that developers not only use but love.</p>
+
+<h2 id="why-this-why-now">Why This, Why Now?</h2>
+
+<p>Both Kunal and I are deeply passionate about creating exceptional developer experiences. We’ve seen firsthand in our careers how well-crafted tools not only retain users but also drive product-led growth. Great tools make for happy developers, and happy developers are key to a product’s success.</p>
+
+<p>The landscape of Developer Experience (DX) is evolving rapidly, making this the perfect time to redefine what excellent DX looks like—not just from the traditional standpoint of developers coming to your portals for help but from going where developers are beginning their journeys today. Increasingly, we find that developers start their interaction with new tools through LLMs (Large Language Models), which is why our approach includes evaluating how LLM-friendly your product is.</p>
+
+<p>This shift in the landscape is exciting for us, as it presents an opportunity to be at the forefront of defining and shaping what this new experience looks like for developers. <em>For a deeper dive into our journey and why we find this timing crucial, check out Kunal’s post.</em></p>
+
+<h2 id="introducing-debugdx">Introducing DebugDX</h2>
+
+<p>At HelloDX, everything starts with <strong>DebugDX</strong>. It’s our fresh take on what you might know as <em>friction logging</em>. It’s our tool for uncovering what might be stumping developers as they interact with your product, pinpointing the crucial elements that make or break their experience.</p>
+
+<p><strong><em>What is Friction Logging?</em></strong> It’s a detailed evaluation of your product through the eyes of a new user, aiming to identify and smooth out _‘friction points’—_any disruptions in the developer experience.</p>
+
+<p>This process involves stepping back to view your tools with fresh, unbiased eyes—something internal teams might miss due to proximity and inherent biases. Recognizing issues can be surprisingly challenging when you’re deeply immersed in day-to-day operations, which is where an external perspective becomes invaluable.</p>
+
+<p>While companies like Stripe excel at maintaining high-quality user experiences through regular internal friction logging, not every company, especially startups and growing businesses, can allocate resources for continuous QA.</p>
+
+<p>That’s where HelloDX steps in. We examine your product from a new user’s perspective, from onboarding through daily tasks. We identify any friction points and provide clear, actionable solutions. These are not just quick fixes but steps towards substantial, lasting improvements that not only improve developer satisfaction, but also boost user retention, and contribute to product-led growth.</p>
+
+<p><strong>What’s in Our DebugDX Report?</strong> We go beyond just reviewing; we dive into every part of your product that a developer might engage with—from the onboarding process to APIs, SDKs, and documentation. We don’t just examine your tools from the outside; we actually use them. By building with your APIs and SDKs, we can truly understand the user experience, pinpointing exactly where the friction lies.</p>
+
+<p>But we don’t stop with the traditional elements. We also evaluate how LLM-friendly your product is. Since a lot of developers now start their journey through these models, we think it’s crucial to get this right. While LLMs are a newer field and we’re all learning, we’ve picked up some handy practices along the way that can significantly improve these interactions. We’ll share these insights in our report, helping you not just to keep up but to stay ahead.</p>
+
+<p>Here are a <strong>few examples of the questions and evaluations</strong> that might be included in our DebugDX reports:</p>
+
+<p><strong>Onboarding Process:</strong></p>
+
+<p>How easy is it to set up an account?</p>
+
+<p>Are there any steps that seem unnecessary or could be simpler?</p>
+
+<p>Is the initial setup documentation clear and easy to follow?</p>
+
+<p><strong>API Evaluation:</strong></p>
+
+<p>Do the API responses meet expected standards?</p>
+
+<p>How helpful are the error codes and messages?</p>
+
+<p>Are there any confusing inconsistencies in API behavior that could confuse new users?</p>
+
+<p><strong>SDK Usability:</strong></p>
+
+<p>How easy is it to integrate the SDK into existing projects?</p>
+
+<p>Does the SDK documentation cover a wide range of use cases?</p>
+
+<p>Are there examples of common implementation scenarios?</p>
+
+<p><strong>Documentation Depth:</strong></p>
+
+<p>Is the documentation structured in a way that new users can easily navigate?</p>
+
+<p>Does it include both high-level overviews and detailed step-by-step guides?</p>
+
+<p>Are there video tutorials or interactive elements that aid in understanding?</p>
+
+<p><strong>LLM Friendliness:</strong></p>
+
+<p>Does the LLM have sufficient knowledge about your API/SDK?</p>
+
+<p>How accurate is the code provided by LLMs for basic “Hello World” examples?</p>
+
+<p>How accurate is the code for more complex integrations?</p>
+
+<h2 id="debugdx-friction-logging-through-dx-user-stories">DebugDX: Friction Logging Through DX User Stories</h2>
+
+<p>At HelloDX, we dive deep into the user experience by framing our investigations around DX user stories—narrative descriptions of a specific task or goal. By tracking these stories from start to finish, we cover everything from initial onboarding to daily interactions with your tools, including documentation, APIs, SDKs, and LLM compatibility.</p>
+
+<p>What is a DX User Story? A DX user story is a simple, clear description of a task or goal from the perspective of the developer. It helps us understand what the user wants to achieve and the steps they take to get there. This approach ensures we see the world through the eyes of your developers and identify any friction points that might hinder their experience.</p>
+
+<p>Here are some DX user story examples that guide our DebugDX logs:</p>
+
+<ul>
+  <li>Sign up and quickly run a “Hello World” example using Python and Node.</li>
+  <li>Troubleshoot a common issue using the documentation/LLMs to gauge its effectiveness and clarity.</li>
+  <li>Integrate a specific API into an existing project following a tutorial/guide/docs.</li>
+  <li>Adopt and test a new Python SDK to evaluate its impact on development speed and bug rate.</li>
+  <li>Follow a step-by-step tutorial on setting up OAuth to ensure application security.</li>
+  <li>Build a sample app using the product’s CLI tools to understand their ease of use and efficiency.</li>
+</ul>
+
+<h2 id="our-services-tailored-to-fit-your-needs">Our Services: Tailored to Fit Your Needs</h2>
+
+<p>We’re trying something different with our pricing—a straightforward, transparent approach that’s not typical in the consulting industry. We’ve designed our packages specifically with Product Managers and Developer Relations professionals in mind, offering options that allow quick sign-up without lengthy sales negotiations or contract signings. Our goal is to provide clear, actionable insights quickly and efficiently.</p>
+
+<h3 id="hello-world-package-999">Hello World Package: $999</h3>
+
+<p>Experience firsthand what new developers encounter during their onboarding process. Ideal for diagnosing drop-offs during sign-up or understanding why users disengage after initial setup. This package gives you a taste of what the onboarding process may look like for new developers. It’s perfect if you’re noticing drop-offs in the signup process or wondering why new users aren’t sticking around after their initial experience.</p>
+
+<p><strong>What You Get:</strong></p>
+
+<ul>
+  <li>A detailed analysis of the onboarding process and first interaction.</li>
+  <li>Identification of friction points that impact the first-time user experience.</li>
+  <li>Strategic recommendations to improve engagement and reduce early drop-offs.</li>
+</ul>
+
+<h3 id="per-story-package-2500-per-story">Per-Story Package: $2,500 per story</h3>
+
+<p>You choose the DX user story you want us to focus on. Dive deeper into specific areas of your product by selecting the DX user stories that matter most to you. Whether it’s following a particular guide, understanding the adoption barriers of a new SDK, or identifying why a feature isn’t being used as expected, this package provides detailed insights into specific user journeys.</p>
+
+<p><strong>What You Get:</strong></p>
+
+<ul>
+  <li>A comprehensive DebugDX report for one complete DX user story, capturing detailed interactions from start to finish.</li>
+  <li>In-depth analysis aimed at resolving identified issues and boosting overall user satisfaction.</li>
+  <li>Precise, actionable insights aimed at resolving specific challenges faced by your developers, enhancing the overall user experience.</li>
+</ul>
+
+<h2 id="why-choose-us">Why Choose Us?</h2>
+
+<p>Kunal and I founded HelloDX.co out of a genuine desire to make developers’ work not just easier but truly enjoyable. With years of experience at companies like Amazon, SendGrid, Mashery, and Retool, we’ve seen firsthand what makes or breaks developer tools.</p>
+
+<p>We’re not just observers; we’ve been on both sides of the spectrum—designing the tools and using them. Our hands-on experience in developer relations has taught us the importance of listening and adapting, taking the feedback from the front lines to make meaningful changes.</p>
+
+<p>And we’re still developers at heart—always tinkering, always building. We know those little details that really matter—the ones that can turn a good tool into a great one—because we’ve been there, as both users and builders.</p>
+
+<p>That’s why we started this—because we love this stuff, and we know how much it matters.</p>
+
+<h2 id="lets-chat">Let’s Chat</h2>
+
+<p>If you’re looking to improve your developer tools and want to ensure they work flawlessly, <a href="https://calendly.com/hello-amit/meet30">we’d love to talk</a>. You can book a free call with Kunal and me to explore how we can help.</p>
+
+<p>We’re excited about the possibilities ahead and look forward to potentially working together to make your developer tools the best they can be.</p>
+
+<p>Catch you later,</p>
+
+<p>Amit</p>
+
+</div>
+        
+
+    
+
+    
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+
+
+
+
+<script type="text/javascript" src="/assets/js/scripts.js"></script>
+
+<script type="text/javascript" src="/assets/js/hamburger.js"></script>
+<script type="text/javascript" src="/assets/js/darkModeSwitch.js"></script>
+
+
+
+
+
+</body>
+</html>

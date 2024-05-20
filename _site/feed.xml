@@ -5,86 +5,269 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 15 May 2024 21:52:50 -0400</pubDate>
-    <lastBuildDate>Wed, 15 May 2024 21:52:50 -0400</lastBuildDate>
+    <pubDate>Mon, 20 May 2024 12:49:06 -0400</pubDate>
+    <lastBuildDate>Mon, 20 May 2024 12:49:06 -0400</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
-        <title>Hello World - Hello DX</title>
-        <description>&lt;p&gt;Markdown is a lightweight markup language with plain-text-formatting syntax. Its design allows it to be converted to many output formats, but the original tool by the same name only supports HTML. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.&lt;/p&gt;
+        <title>👋 Welcome to HelloDX!</title>
+        <description>&lt;h2 id=&quot;hello-world&quot;&gt;Hello World&lt;/h2&gt;
+&lt;p&gt;I’m really excited to share that &lt;a href=&quot;https://www.linkedin.com/in/ajotwani/&quot;&gt;Amit Jotwani&lt;/a&gt; and &lt;a href=&quot;https://www.linkedin.com/in/batrakunal/&quot;&gt;I&lt;/a&gt; are starting a new venture to help companies grow by offering tools and services that enhance DX. In this venture, known as HelloDX, our North Star is to reduce the friction that developers face with their tooling, allowing them to focus on tackling the challenges at hand. Before diving into how we will accomplish this vision, I want to quickly introduce who we are.&lt;/p&gt;
 
-&lt;p&gt;Since the initial description of Markdown contained ambiguities and unanswered questions, the implementations that appeared over the years have subtle differences and many come with syntax extensions.&lt;/p&gt;
-
-&lt;h2 id=&quot;history&quot;&gt;History&lt;/h2&gt;
-
-&lt;p&gt;John Gruber created the &lt;a href=&quot;#&quot;&gt;Markdown&lt;/a&gt; language in 2004 in collaboration with Aaron Swartz on the syntax, with the goal of enabling people “to write using an easy-to-read and easy-to-write plain text format”. Its key design goal is readability. That the language be readable as-is.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Markdown is a lightweight markup language with plain-text-formatting syntax”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;To this end, its main inspiration is the existing conventions for marking up plain text in email, though it also draws from earlier markup languages, notably setext, Textile, and reStructuredText.&lt;/p&gt;
-
-&lt;h2 id=&quot;markdown-flavours&quot;&gt;Markdown Flavours&lt;/h2&gt;
-
-&lt;p&gt;From 2012, a group of people including Jeff Atwood and John MacFarlane launched what Atwood characterized as a standardization effort. A community website now aims to “document various tools and resources available to document authors and developers, as well as implementors of the various markdown implementations”.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/gen/content/content-4.webp&quot; alt=&quot;image&quot; class=&quot;custom-image-class&quot; /&gt;
-&lt;img src=&quot;/assets/images/gen/content/content-3.webp&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;github-flavored-markdown-gfm&quot;&gt;GitHub Flavored Markdown (GFM)&lt;/h3&gt;
-
-&lt;p&gt;In 2017, GitHub released a formal specification of their GitHub Flavored Markdown (GFM) that is based on CommonMark. It follows the CommonMark specification exactly except for tables, strikethrough, autolinks and task lists, which the GitHub spec has added as extensions. GitHub also changed the parser used on their sites accordingly, which required that some documents be changed. For instance, GFM now requires that the hash symbol that creates a heading be separated from the heading text by a space character.he user to create their own.&lt;/p&gt;
-
+&lt;h2 id=&quot;the-team-behind-hellodx&quot;&gt;The Team behind HelloDX&lt;/h2&gt;
 &lt;figure&gt;
-  &lt;a href=&quot;https://figma.com&quot; target=&quot;_blank&quot;&gt;
-    &lt;img src=&quot;/assets/images/gen/content/content-2.webp&quot; alt=&quot;Photo of designing a website in Figma&quot; /&gt;
+  &lt;a href=&quot;&quot; target=&quot;&quot;&gt;
+    &lt;img src=&quot;/assets/images/gen/content/team10yrsago.jpg&quot; alt=&quot;The Team&quot; /&gt;
   &lt;/a&gt;
   &lt;figcaption&gt;
-    &lt;h4&gt;There are many popular text editors for Markdown&lt;/h4&gt;
-    &lt;p&gt;VSCode Editor&lt;/p&gt;
+    &lt;h4&gt;A much younger Amit and Kunal.&lt;/h4&gt;
+    &lt;p&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+  &lt;a href=&quot;&quot; target=&quot;&quot;&gt;
+    &lt;img src=&quot;/assets/images/gen/content/team-present-day.png&quot; alt=&quot;The Team&quot; /&gt;
+  &lt;/a&gt;
+  &lt;figcaption&gt;
+    &lt;h4&gt;Myself on the left and Amit Jotwani on the right&lt;/h4&gt;
+    &lt;p&gt;&lt;/p&gt;
   &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h3 id=&quot;markdown-extra&quot;&gt;Markdown Extra&lt;/h3&gt;
+&lt;p&gt;Amit and I have known each other for over a decade, working together at both small and large SaaS companies that serve developers and address their challenges. We’ve supported developers across different verticals at companies like SendGrid, Mashery, Intel, Clarifai, Retool, Auth0 &amp;amp; more. Most recently, we both worked at Amazon focusing on reducing friction for developers using our products. Amit concentrated on enhancing developer tooling and experience for the Alexa Voice product, while I worked at Amazon Web Services (AWS), improving developer experience across our portfolio of modern application services.&lt;/p&gt;
 
-&lt;p&gt;Markdown Extra is a lightweight markup language based on Markdown implemented in PHP (originally), &lt;a href=&quot;#&quot;&gt;Python&lt;/a&gt; and &lt;a href=&quot;#&quot;&gt;Ruby&lt;/a&gt;. It adds features not available with plain Markdown syntax. Markdown Extra is supported in some content management systems such as, for example, Drupal.&lt;/p&gt;
+&lt;p&gt;Throughout the last 10+ years that we’ve worked together, we’ve had many discussions on developer experience and its importance as a lever for growth. We’ve honed best practices from seeing what works and what doesn’t, from working at small SaaS companies through their IPOs to being part of one of the largest developer-focused companies in the world.&lt;/p&gt;
 
-&lt;h3 id=&quot;mdx&quot;&gt;MDX&lt;/h3&gt;
+&lt;figure&gt;
+  &lt;a href=&quot;&quot; target=&quot;&quot;&gt;
+    &lt;img src=&quot;/assets/images/gen/content/apartments.jpg&quot; alt=&quot;Fun Fact&quot; /&gt;
+  &lt;/a&gt;
+  &lt;figcaption&gt;
+    &lt;h4&gt;Fun fact: In 2016, I randomly moved into the apartment right across from Amit and his wife in the same building, without any idea that they lived there. It&apos;s truly a small world.&lt;/h4&gt;
+    &lt;p&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
 
-&lt;p&gt;At the same time, a number of ambiguities in the informal specification had attracted attention.These issues spurred the creation of tools such as Babelmark to compare the output of various implementations, and an effort by some developers of Markdown parsers for standardisation. However, Gruber has argued that complete standardization would be a mistake:&lt;/p&gt;
+&lt;h2 id=&quot;why-now&quot;&gt;Why Now&lt;/h2&gt;
 
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nf&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;scroll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;function &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;c1&quot;&gt;// this will work when your window scrolled.&lt;/span&gt;
-  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;scroll&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;scrollTop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;if &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;scroll&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nf&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.header&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;addClass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;header-scrolled&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nf&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.header&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;removeClass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;header-scrolled&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;One of the things Amit and I realized around the time we both left Amazon was that the developer landscape was changing in unprecedented ways. Generative AI was, and still is, having a profound effect on many industries, but developers in particular, are gaining significant leverage over other knowledge workers. We noticed a pattern emerging where developers were becoming more efficient, and the software development life cycle was becoming more streamlined, significantly reducing the time spent on writing and debugging code. Additionally, code quality improved—not because developers blindly followed the output of these LLMs, but because these tools helped them write cleaner code and turned coding into a more educational experience. Interestingly, these LLMs also assist with creative problem-solving by suggesting multiple approaches to a problem.&lt;/p&gt;
 
-&lt;p&gt;Gruber avoided using curly braces in Markdown to unofficially reserve them for implementation-specific extensions. Markdown Extra adds the following features to Markdown:&lt;/p&gt;
+&lt;p&gt;With all of these additional capabilities being introduced we’ve also seen new pain points emerge as well.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Sub-optimal experiences where developers get outdated/hallucinated code or instances where LLMs have no awareness of services that might assist a developer to tackle the challenges they are facing to name a few.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Developer tooling organizations want to better position themselves on these LLMs to optimize how they are mentioned and utilized.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There is a lot of work to be done, but we strongly believe that improving the developer experience and showcasing how your tool best solves a challenge are at the core of this effort. In the future, we will continue to create more products and services to help with better placement and utilization of LLMs to improve DX.&lt;/p&gt;
+
+&lt;h2 id=&quot;first-product&quot;&gt;First Product&lt;/h2&gt;
+
+&lt;p&gt;Our first product is a comprehensive friction report known as DebugDX. We will evaluate your services and tools across multiple developer experience dimensions based on your product’s use cases and provide actionable feedback on areas for improvement to help retain and grow your user base. Most companies overlook that retention is a key pillar of product-led growth (PLG). In this report, we’ll also suggest creative experiments for increasing developer acquisition and give guidance throughout.&lt;/p&gt;
+
+&lt;p&gt;We’re breaking this down into two packages to make pricing transparent and simple. &lt;a href=&quot;https://blog.hellodx.co/2024-05-15-helloworld/&quot;&gt;Amit’s post goes more into detail on this so please check that out. &lt;/a&gt;But overall you can see some of the different dimensions that we cover in the bullet points below.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;markdown markup inside HTML blocks&lt;/li&gt;
-  &lt;li&gt;elements with id/class attribute&lt;/li&gt;
-  &lt;li&gt;fenced code blocks that span multiple lines of code&lt;/li&gt;
-  &lt;li&gt;tables&lt;/li&gt;
-  &lt;li&gt;definition lists&lt;/li&gt;
-  &lt;li&gt;footnotes&lt;/li&gt;
-  &lt;li&gt;abbreviations&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Usability and Integration&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Ease of Use&lt;/span&gt;: Learning curve, setup, and configuration&lt;/li&gt;
+      &lt;li&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;LLM Friendliness&lt;/span&gt;: SEO optimization for language models&lt;/li&gt;
+      &lt;li&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Integrations and Extensibility&lt;/span&gt;: Compatibility with other tools, languages, and frameworks&lt;/li&gt;
+      &lt;li&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Integration Tools&lt;/span&gt;: Tools like IDE plugins, browser extensions, CI/CD integrations, etc.&lt;/li&gt;
+      &lt;li&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;SDKs and Libraries&lt;/span&gt;: Availability and quality of software development kits and libraries&lt;/li&gt;
+      &lt;li&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Documentation and Technical Content&lt;/span&gt;: Quality and comprehensiveness of documentation and tutorials&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Performance and Reliability&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Speed, efficiency, scalability, stability, uptime, etc.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Developer Support and Innovation&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Support and Community&lt;/span&gt;: Quality of customer support and community engagement&lt;/li&gt;
+      &lt;li&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Product Insights&lt;/span&gt;: Feature suggestions and prioritizations&lt;/li&gt;
+      &lt;li&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Developer Marketing Experiments&lt;/span&gt;: Innovative strategies to attract and retain developers&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;This list is not exhaustive but gives an example of the lens we will use to examine your product. Our feedback will be based on our extensive experience in identifying what works and what doesn’t.&lt;/p&gt;
+
+&lt;h2 id=&quot;get-started&quot;&gt;Get Started&lt;/h2&gt;
+
+&lt;p&gt;If this resonates with you and you want to take advantage of the experience Amit and I have built up, reach out to us with the challenges you’re facing. We want to build a relationship with you and help. The process starts with a quick introductory call with Amit and myself to assess your needs. We will then create a customized action plan with impactful steps for growth. Finally, we’ll schedule a kickoff call to walk through the process with your entire team. We look forward to working with you!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://calendly.com/kunal732/30min&quot;&gt;Work with us!&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;kunal--amit&quot;&gt;Kunal &amp;amp; Amit&lt;/h3&gt;
+
 </description>
-        <pubDate>Wed, 15 May 2024 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2024-05-15-helloworld/</link>
-        <guid isPermaLink="true">http://localhost:4000/2024-05-15-helloworld/</guid>
+        <pubDate>Mon, 20 May 2024 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2024-05-20-welcomedx/</link>
+        <guid isPermaLink="true">http://localhost:4000/2024-05-20-welcomedx/</guid>
         
         
         <category>DX</category>
         
-        <category>AI</category>
+        <category>Launch</category>
+        
+      </item>
+    
+      <item>
+        <title>Hello World…HelloDX</title>
+        <description>&lt;h3 id=&quot;hello-everyone&quot;&gt;Hello Everyone&lt;/h3&gt;
+&lt;p&gt;I’m really excited to share some news today. &lt;a href=&quot;https://www.linkedin.com/in/batrakunal/&quot;&gt;Kunal&lt;/a&gt; and I are starting &lt;a href=&quot;hellodx.co&quot;&gt;HelloDX&lt;/a&gt;, a new venture to help developer-focused companies create products that developers love to use.&lt;/p&gt;
+
+&lt;p&gt;We’ve known each other for over a decade, starting out as developer advocates at Mashery and SendGrid, and later working at Amazon (Alexa and AWS). &lt;em&gt;Fun fact: we even became neighbors here in New York City—completely by chance.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Between us, we’ve spent years working with developer tools at places like Amazon, SendGrid, Mashery, and Retool. We’ve seen firsthand what makes or breaks these tools, not just as advocates, educators, and product managers, but as developers too. Our hands-on experience and close connection with the developer community have given us a deep understanding of what makes tools truly great.&lt;/p&gt;
+
+&lt;p&gt;After years of working together on various projects and countless coffee chats, we decided it was time to put our knowledge to use in a new way. That’s why we’re starting HelloDX. We want to help companies create tools that developers not only use but love.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-this-why-now&quot;&gt;Why This, Why Now?&lt;/h2&gt;
+
+&lt;p&gt;Both Kunal and I are deeply passionate about creating exceptional developer experiences. We’ve seen firsthand in our careers how well-crafted tools not only retain users but also drive product-led growth. Great tools make for happy developers, and happy developers are key to a product’s success.&lt;/p&gt;
+
+&lt;p&gt;The landscape of Developer Experience (DX) is evolving rapidly, making this the perfect time to redefine what excellent DX looks like—not just from the traditional standpoint of developers coming to your portals for help but from going where developers are beginning their journeys today. Increasingly, we find that developers start their interaction with new tools through LLMs (Large Language Models), which is why our approach includes evaluating how LLM-friendly your product is.&lt;/p&gt;
+
+&lt;p&gt;This shift in the landscape is exciting for us, as it presents an opportunity to be at the forefront of defining and shaping what this new experience looks like for developers. &lt;em&gt;For a deeper dive into our journey and why we find this timing crucial, check out Kunal’s post.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;introducing-debugdx&quot;&gt;Introducing DebugDX&lt;/h2&gt;
+
+&lt;p&gt;At HelloDX, everything starts with &lt;strong&gt;DebugDX&lt;/strong&gt;. It’s our fresh take on what you might know as &lt;em&gt;friction logging&lt;/em&gt;. It’s our tool for uncovering what might be stumping developers as they interact with your product, pinpointing the crucial elements that make or break their experience.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;What is Friction Logging?&lt;/em&gt;&lt;/strong&gt; It’s a detailed evaluation of your product through the eyes of a new user, aiming to identify and smooth out _‘friction points’—_any disruptions in the developer experience.&lt;/p&gt;
+
+&lt;p&gt;This process involves stepping back to view your tools with fresh, unbiased eyes—something internal teams might miss due to proximity and inherent biases. Recognizing issues can be surprisingly challenging when you’re deeply immersed in day-to-day operations, which is where an external perspective becomes invaluable.&lt;/p&gt;
+
+&lt;p&gt;While companies like Stripe excel at maintaining high-quality user experiences through regular internal friction logging, not every company, especially startups and growing businesses, can allocate resources for continuous QA.&lt;/p&gt;
+
+&lt;p&gt;That’s where HelloDX steps in. We examine your product from a new user’s perspective, from onboarding through daily tasks. We identify any friction points and provide clear, actionable solutions. These are not just quick fixes but steps towards substantial, lasting improvements that not only improve developer satisfaction, but also boost user retention, and contribute to product-led growth.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What’s in Our DebugDX Report?&lt;/strong&gt; We go beyond just reviewing; we dive into every part of your product that a developer might engage with—from the onboarding process to APIs, SDKs, and documentation. We don’t just examine your tools from the outside; we actually use them. By building with your APIs and SDKs, we can truly understand the user experience, pinpointing exactly where the friction lies.&lt;/p&gt;
+
+&lt;p&gt;But we don’t stop with the traditional elements. We also evaluate how LLM-friendly your product is. Since a lot of developers now start their journey through these models, we think it’s crucial to get this right. While LLMs are a newer field and we’re all learning, we’ve picked up some handy practices along the way that can significantly improve these interactions. We’ll share these insights in our report, helping you not just to keep up but to stay ahead.&lt;/p&gt;
+
+&lt;p&gt;Here are a &lt;strong&gt;few examples of the questions and evaluations&lt;/strong&gt; that might be included in our DebugDX reports:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Onboarding Process:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;How easy is it to set up an account?&lt;/p&gt;
+
+&lt;p&gt;Are there any steps that seem unnecessary or could be simpler?&lt;/p&gt;
+
+&lt;p&gt;Is the initial setup documentation clear and easy to follow?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;API Evaluation:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Do the API responses meet expected standards?&lt;/p&gt;
+
+&lt;p&gt;How helpful are the error codes and messages?&lt;/p&gt;
+
+&lt;p&gt;Are there any confusing inconsistencies in API behavior that could confuse new users?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SDK Usability:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;How easy is it to integrate the SDK into existing projects?&lt;/p&gt;
+
+&lt;p&gt;Does the SDK documentation cover a wide range of use cases?&lt;/p&gt;
+
+&lt;p&gt;Are there examples of common implementation scenarios?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Documentation Depth:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Is the documentation structured in a way that new users can easily navigate?&lt;/p&gt;
+
+&lt;p&gt;Does it include both high-level overviews and detailed step-by-step guides?&lt;/p&gt;
+
+&lt;p&gt;Are there video tutorials or interactive elements that aid in understanding?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;LLM Friendliness:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Does the LLM have sufficient knowledge about your API/SDK?&lt;/p&gt;
+
+&lt;p&gt;How accurate is the code provided by LLMs for basic “Hello World” examples?&lt;/p&gt;
+
+&lt;p&gt;How accurate is the code for more complex integrations?&lt;/p&gt;
+
+&lt;h2 id=&quot;debugdx-friction-logging-through-dx-user-stories&quot;&gt;DebugDX: Friction Logging Through DX User Stories&lt;/h2&gt;
+
+&lt;p&gt;At HelloDX, we dive deep into the user experience by framing our investigations around DX user stories—narrative descriptions of a specific task or goal. By tracking these stories from start to finish, we cover everything from initial onboarding to daily interactions with your tools, including documentation, APIs, SDKs, and LLM compatibility.&lt;/p&gt;
+
+&lt;p&gt;What is a DX User Story? A DX user story is a simple, clear description of a task or goal from the perspective of the developer. It helps us understand what the user wants to achieve and the steps they take to get there. This approach ensures we see the world through the eyes of your developers and identify any friction points that might hinder their experience.&lt;/p&gt;
+
+&lt;p&gt;Here are some DX user story examples that guide our DebugDX logs:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sign up and quickly run a “Hello World” example using Python and Node.&lt;/li&gt;
+  &lt;li&gt;Troubleshoot a common issue using the documentation/LLMs to gauge its effectiveness and clarity.&lt;/li&gt;
+  &lt;li&gt;Integrate a specific API into an existing project following a tutorial/guide/docs.&lt;/li&gt;
+  &lt;li&gt;Adopt and test a new Python SDK to evaluate its impact on development speed and bug rate.&lt;/li&gt;
+  &lt;li&gt;Follow a step-by-step tutorial on setting up OAuth to ensure application security.&lt;/li&gt;
+  &lt;li&gt;Build a sample app using the product’s CLI tools to understand their ease of use and efficiency.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;our-services-tailored-to-fit-your-needs&quot;&gt;Our Services: Tailored to Fit Your Needs&lt;/h2&gt;
+
+&lt;p&gt;We’re trying something different with our pricing—a straightforward, transparent approach that’s not typical in the consulting industry. We’ve designed our packages specifically with Product Managers and Developer Relations professionals in mind, offering options that allow quick sign-up without lengthy sales negotiations or contract signings. Our goal is to provide clear, actionable insights quickly and efficiently.&lt;/p&gt;
+
+&lt;h3 id=&quot;hello-world-package-999&quot;&gt;Hello World Package: $999&lt;/h3&gt;
+
+&lt;p&gt;Experience firsthand what new developers encounter during their onboarding process. Ideal for diagnosing drop-offs during sign-up or understanding why users disengage after initial setup. This package gives you a taste of what the onboarding process may look like for new developers. It’s perfect if you’re noticing drop-offs in the signup process or wondering why new users aren’t sticking around after their initial experience.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What You Get:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A detailed analysis of the onboarding process and first interaction.&lt;/li&gt;
+  &lt;li&gt;Identification of friction points that impact the first-time user experience.&lt;/li&gt;
+  &lt;li&gt;Strategic recommendations to improve engagement and reduce early drop-offs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;per-story-package-2500-per-story&quot;&gt;Per-Story Package: $2,500 per story&lt;/h3&gt;
+
+&lt;p&gt;You choose the DX user story you want us to focus on. Dive deeper into specific areas of your product by selecting the DX user stories that matter most to you. Whether it’s following a particular guide, understanding the adoption barriers of a new SDK, or identifying why a feature isn’t being used as expected, this package provides detailed insights into specific user journeys.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What You Get:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A comprehensive DebugDX report for one complete DX user story, capturing detailed interactions from start to finish.&lt;/li&gt;
+  &lt;li&gt;In-depth analysis aimed at resolving identified issues and boosting overall user satisfaction.&lt;/li&gt;
+  &lt;li&gt;Precise, actionable insights aimed at resolving specific challenges faced by your developers, enhancing the overall user experience.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;why-choose-us&quot;&gt;Why Choose Us?&lt;/h2&gt;
+
+&lt;p&gt;Kunal and I founded HelloDX.co out of a genuine desire to make developers’ work not just easier but truly enjoyable. With years of experience at companies like Amazon, SendGrid, Mashery, and Retool, we’ve seen firsthand what makes or breaks developer tools.&lt;/p&gt;
+
+&lt;p&gt;We’re not just observers; we’ve been on both sides of the spectrum—designing the tools and using them. Our hands-on experience in developer relations has taught us the importance of listening and adapting, taking the feedback from the front lines to make meaningful changes.&lt;/p&gt;
+
+&lt;p&gt;And we’re still developers at heart—always tinkering, always building. We know those little details that really matter—the ones that can turn a good tool into a great one—because we’ve been there, as both users and builders.&lt;/p&gt;
+
+&lt;p&gt;That’s why we started this—because we love this stuff, and we know how much it matters.&lt;/p&gt;
+
+&lt;h2 id=&quot;lets-chat&quot;&gt;Let’s Chat&lt;/h2&gt;
+
+&lt;p&gt;If you’re looking to improve your developer tools and want to ensure they work flawlessly, &lt;a href=&quot;https://calendly.com/hello-amit/meet30&quot;&gt;we’d love to talk&lt;/a&gt;. You can book a free call with Kunal and me to explore how we can help.&lt;/p&gt;
+
+&lt;p&gt;We’re excited about the possibilities ahead and look forward to potentially working together to make your developer tools the best they can be.&lt;/p&gt;
+
+&lt;p&gt;Catch you later,&lt;/p&gt;
+
+&lt;p&gt;Amit&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 20 May 2024 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2024-05-20-helloworldhellodx/</link>
+        <guid isPermaLink="true">http://localhost:4000/2024-05-20-helloworldhellodx/</guid>
+        
+        
+        <category>DX</category>
+        
+        <category>Launch</category>
         
       </item>
     
